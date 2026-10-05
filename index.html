@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Habit Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>My Habit Tracker</h1>
+        <p>Track your daily habits</p>
+
+        <div class="add-box">
+            <input type="text" id="habitInput" placeholder="Enter a habit">
+            <button onclick="addHabit()">Add Habit</button>
+        </div>
+
+        <h2>Today's Habits</h2>
+
+        <div id="habitList">
+            <!-- Habits will appear here -->
+        </div>
+
+        <div class="progress-box">
+            <h3>Today's Progress</h3>
+
+            <div class="progress-bar">
+                <div id="progress"></div>
+            </div>
+
+            <p id="progressText">0% completed</p>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
